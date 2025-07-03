@@ -65,7 +65,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp TAB                          &kp MINUS  &kp H        &kp J  &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp BACKSPACE                    &kp EQUAL  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LA(TAB)                      &kp EQUAL  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 1 SPACE  &lt_to_layer_0 5 LANGUAGE_1      &kp DEL    &lt 2 ENTER                             &kp GRAVE
             >;
 
@@ -83,7 +83,7 @@
 
         NUM {
             bindings = <
-&kp ESC    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &trans  &trans          &trans        &trans     &trans
+&kp ESC    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &trans  &trans          &trans        &trans     &kp BACKSPACE
 &kp TILDE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans  &mkp LCLK       &kp UP_ARROW  &mkp MB2   &trans
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp LA(LEFT)                 &trans          &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans
 &trans     &kp N0        &kp PERIOD    &trans        &trans        &trans                       &trans          &trans                                           &trans
