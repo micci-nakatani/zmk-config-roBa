@@ -127,3 +127,7 @@
         };
     };
 };
+
+&trackball_listener {
+    scroll-layers = <5>;   // ← ここを追加
+};
